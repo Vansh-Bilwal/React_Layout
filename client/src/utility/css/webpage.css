@@ -1,0 +1,30 @@
+.partition {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  height: 100%;
+}
+
+.sidebar {
+  background-color: #282c3c;
+  height: 100vh;
+}
+
+.header {
+  background-color: white;
+  height: 8vh;
+}
+.right-side {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.stats {
+  height: 38vh;
+}
+.map-stats {
+  width: 100%;
+  margin-top: 35px;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
